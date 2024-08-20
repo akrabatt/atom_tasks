@@ -8,9 +8,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 include_directories(headders)
 
-set(SOURCES ./main.cpp ./source/fun.cpp ./source/vars.cpp)
+set(SOURCES ./main.cpp ./source/GeoPointProcessor.cpp)
 
-set(HEADERS ./headders/fun.h ./headders/vars.h)
+set(HEADERS ./headders/GeoPointProcessor.h)
 
 add_executable(GeoPoints  ${SOURCES})
 
