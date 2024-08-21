@@ -1,8 +1,4 @@
 # ninja log v5
-3	321	7459295038974019	CMakeFiles/GeoPoints.dir/main.cpp.obj	20a6cd64d4b67cbf
-6	419	7459295039949580	CMakeFiles/GeoPoints.dir/source/GeoPointProcessor.cpp.obj	1c65acf1419ab1d3
-3	695	7459321618342529	CMakeFiles/GeoPoints.dir/source/GeoPointProcessor.cpp.obj	1c65acf1419ab1d3
-3	705	7459331615213176	CMakeFiles/GeoPoints.dir/source/GeoPointProcessor.cpp.obj	1c65acf1419ab1d3
-705	910	7459331617160256	GeoPoints.exe	f25f6a7f83d9fe68
 4	501	7459333890945816	CMakeFiles/GeoPoints.dir/main.cpp.obj	20a6cd64d4b67cbf
+3	705	7459331615213176	CMakeFiles/GeoPoints.dir/source/GeoPointProcessor.cpp.obj	1c65acf1419ab1d3
 501	645	7459333892085042	GeoPoints.exe	f25f6a7f83d9fe68

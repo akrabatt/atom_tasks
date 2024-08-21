@@ -70,15 +70,15 @@ void GeoPointProcessor::processGeoPoints()
 {
     while (!done)
     {
-        std::pair<GeoPoint, GeoPoint> points;
+        std::pair<GeoPoint, GeoPoint> points; // создаем пару для временного хранения точек
         {
-            std::unique_lock<std::mutex> lock(queueMutex);
+            std::unique_lock<std::mutex> lock(queueMutex);  // бронируем 
             dataCondition.wait(lock, [this] {return !geoQueue.empty() || done; });  // Ждет, пока появятся данные или завершится производство
 
-            if (geoQueue.empty() && done)break;
+            if (geoQueue.empty() && done) {break;}
 
-            points = geoQueue.front();
-            geoQueue.pop();
+            points = geoQueue.front(); // переносим точки в локальную пару чтоб дальше с ней работать и освободить основную очередь
+            geoQueue.pop(); // удаляем из основной очереди
         }
         int processTime = processSleepDist(gen);
         std::this_thread::sleep_for(std::chrono::milliseconds(processTime));

@@ -1,0 +1,3 @@
+/home/dmitrii/disk/projeckts_cpp/test_tasks/ATOM/first_task/build_lin/CMakeFiles/GeoPoints.dir
+/home/dmitrii/disk/projeckts_cpp/test_tasks/ATOM/first_task/build_lin/CMakeFiles/edit_cache.dir
+/home/dmitrii/disk/projeckts_cpp/test_tasks/ATOM/first_task/build_lin/CMakeFiles/rebuild_cache.dir

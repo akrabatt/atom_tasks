@@ -5,10 +5,10 @@
 
 int main()
 {
-	GeoPointProcessor processor;	// создаем объект
-	processor.startProcessing();	// запускаем
+	GeoPointProcessor processor;	// СЃРѕР·РґР°РµРј РєР»Р°СЃСЃ
+	processor.startProcessing();	// Р·Р°РїСѓСЃРєР°РµРј РіРµРЅРµСЂР°С†РёСЋ РєРѕРѕСЂРґРёРЅР°С‚
 
-	std::this_thread::sleep_for(std::chrono::seconds(5));	// main ждет 5 секунд
+	std::this_thread::sleep_for(std::chrono::seconds(5));	// РѕСЃС‚Р°РЅР°РІР»РёРІР°РµРј РїРѕС‚РѕРє main РЅР° 5 СЃРµРєСѓРЅРґ
 
-	processor.stopProcessing();	// останавливаем обработку
+	processor.stopProcessing();	// РѕСЃС‚Р°РЅР°РІР»РёРІР°РµРј РїСЂРѕС†РµСЃСЃ
 }
