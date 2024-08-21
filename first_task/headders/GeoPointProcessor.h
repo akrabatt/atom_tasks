@@ -14,7 +14,6 @@
  */
 class GeoPointProcessor
 {
-
 public:
 
     // структура для храниния данных геоточек
@@ -39,12 +38,15 @@ public:
 private:
 
     // очередь хранения пар геоточек
-    std::queue<std::pair<GeoPoint, GeoPoint>>;
+    std::queue<std::pair<GeoPoint, GeoPoint>> geoQueue;
 
     // мьютекс 
     std::mutex queueMutex;
 
     // условная переменная для синхронизации потоков
+    std::condition_variable dataCondition;
+
+    // флаг завершения рабты
     bool done;
 
     // потоки для генерации и обработки данных
