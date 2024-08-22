@@ -35,10 +35,13 @@ public:
     // Остановка обработки данных
     void stopProcessing();
 
+    // метод для запуска программы
+    void runForDuration(std::chrono::seconds duration);
+
 private:
 
     // очередь хранения пар геоточек
-    std::queue<std::pair<GeoPoint, GeoPoint>> geoQueue;
+    std::queue<std::pair<GeoPoint, GeoPoint>> geoQueue; // так скажем буффер данных между генерацией и обработкой
 
     // мьютекс 
     std::mutex queueMutex;

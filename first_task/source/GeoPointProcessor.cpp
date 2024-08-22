@@ -8,13 +8,16 @@ GeoPointProcessor::GeoPointProcessor()
     gen(rd()),
     genSleepDist(200, 500),
     processSleepDist(100, 600),
-    geoCoordDist(-90.0, 90.0) {}
+    geoCoordDist(-90.0, 90.0) {
+    std::cout << "\nthe object has been created\n";
+}
 
     
 // деструктор 
 GeoPointProcessor::~GeoPointProcessor()
 {
     stopProcessing();
+    std::cout << "\nthe object has been deleted\n";
 }
 
 
@@ -44,7 +47,7 @@ void GeoPointProcessor::stopProcessing()
 
 /**
 * @brief метод для генерации точек 
-* 
+* @note пока done != true выполняется генерация точки т.е. новые точки постоянно добавляются в очередь
 */
 void GeoPointProcessor::generateGeoPoints()
 {
@@ -64,7 +67,7 @@ void GeoPointProcessor::generateGeoPoints()
 
 /**
 * @brief метод обработки геоточек
-* 
+* @note пока done != true выполняется обработка новой точки
 */
 void GeoPointProcessor::processGeoPoints()
 {
@@ -80,12 +83,24 @@ void GeoPointProcessor::processGeoPoints()
             points = geoQueue.front(); // переносим точки в локальную пару чтоб дальше с ней работать и освободить основную очередь
             geoQueue.pop(); // удаляем из основной очереди
         }
-        int processTime = processSleepDist(gen);
-        std::this_thread::sleep_for(std::chrono::milliseconds(processTime));
+        int processTime = processSleepDist(gen);    // генерим рандомное время
+        std::this_thread::sleep_for(std::chrono::milliseconds(processTime));    // засыпаем на это рандомное время
 
         std::cout << "Processed GeoPoints: \n"
             << "Point 1: (" << points.first.latitude << ", " << points.first.longtitude << ")\n"
             << "Point 2: (" << points.second.latitude << ", " << points.second.longtitude << ")\n"
             << "Processing Time: " << processTime << " ms\n" << std::endl;
     }
+}
+
+
+/**
+*@brief метод по главному запуску
+*@note данный метод регулирует длительность работы программы
+*/
+void GeoPointProcessor::runForDuration(std::chrono::seconds duration)
+{
+    startProcessing();  // запускаем потоки
+    std::this_thread::sleep_for(duration);  // даем поработать опередленное время
+    stopProcessing();   // останавливаем потоки и даем из завершить работу
 }
