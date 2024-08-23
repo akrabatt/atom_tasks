@@ -11,11 +11,11 @@ Graph::Graph()
 
 	// сгенерим случайное кол-во точек
 	std::uniform_int_distribution<> distN(50, 100);
-	int N = disN(gen);
+	int N = distN(gen);
 
 	// сгенерим случайное кол-во соединений для точки
 	std::uniform_int_distribution<> distK(1, 5);
-	int K = disK(gen);
+	int K = distK(gen);
 
 	// зарезервируем место для списка точек в нашем векторе
 	points.reserve(N);
@@ -41,7 +41,21 @@ void Graph::findClosestEdge(const Point& P, Point& R1, Point& R2)
 	{
 		for (size_t j = i + 1; j < points.size(); ++j)	// выбираем вторую точку отрезка тем самым образуем ребро
 		{
+			// создаем объект, новую точку которая является серединой ребра текущего отрезка
+			// вызываем конструктор
+			Point midpoint((points[i].x + points[j].x) / 2, (points[i].y + points[j].y) / 2);	// вычисляем середину ребра
 
+			// вычисляем расстояние до середины ребра от нашей произвольной точки
+			double distance = P.distanceTo(midpoint);
+
+			// выполним проверку является ли текущее расстояние наименьшим
+			if (distance < minDistance)
+			{
+				minDistance = distance;	// обновляем минимальное расстояние
+				R1 = points[i];	// обновляем наши выходные точки чтоб они указывали на текущие точки 
+				R2 = points[j];	// образующие ближайшее ребро до произвольной точки
+			}
 		}
 	}
 }
+

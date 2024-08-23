@@ -1,2 +1,3 @@
+C:/Users/usr/YandexDisk/projeckts_cpp/test_tasks/ATOM/second_task/out/build/x64-Debug/CMakeFiles/nearest_points.dir
 C:/Users/usr/YandexDisk/projeckts_cpp/test_tasks/ATOM/second_task/out/build/x64-Debug/CMakeFiles/edit_cache.dir
 C:/Users/usr/YandexDisk/projeckts_cpp/test_tasks/ATOM/second_task/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

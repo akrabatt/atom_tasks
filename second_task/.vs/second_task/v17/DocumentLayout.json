@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\headders\\point.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:headders\\point.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\source\\point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:source\\point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\source\\graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -13,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\headders\\graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:headders\\graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\headders\\point.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:headders\\point.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,67 +34,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-23T06:21:14.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "graph.h",
-              "DocumentMoniker": "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\headders\\graph.h",
-              "RelativeDocumentMoniker": "headders\\graph.h",
-              "ToolTip": "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\headders\\graph.h",
-              "RelativeToolTip": "headders\\graph.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-23T06:21:20.621Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "CMakeLists.txt",
+              "ToolTip": "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\CMakeLists.txt",
+              "RelativeToolTip": "CMakeLists.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-23T08:07:18.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-23T06:21:14.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "graph.h",
+              "DocumentMoniker": "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\headders\\graph.h",
+              "RelativeDocumentMoniker": "headders\\graph.h",
+              "ToolTip": "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\headders\\graph.h",
+              "RelativeToolTip": "headders\\graph.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-23T06:21:20.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "graph.cpp",
               "DocumentMoniker": "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\source\\graph.cpp",
               "RelativeDocumentMoniker": "source\\graph.cpp",
               "ToolTip": "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\source\\graph.cpp",
               "RelativeToolTip": "source\\graph.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-23T06:21:18.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "point.h",
               "DocumentMoniker": "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\headders\\point.h",
               "RelativeDocumentMoniker": "headders\\point.h",
               "ToolTip": "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\headders\\point.h",
               "RelativeToolTip": "headders\\point.h",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-08-23T06:20:03.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "point.cpp",
               "DocumentMoniker": "C:\\Users\\usr\\YandexDisk\\projeckts_cpp\\test_tasks\\ATOM\\second_task\\source\\point.cpp",
               "RelativeDocumentMoniker": "source\\point.cpp",
