@@ -1,14 +1,4 @@
 # ninja log v5
-9	519	7463690419272456	CMakeFiles/graph.dir/source/point.cpp.obj	5c53d92c0e644def
-7	53	7463693992180727	CMakeFiles/graph.dir/source/edge.cpp.obj	ee4ba7f6b0cc02af
-7	59	7463695652253035	CMakeFiles/graph.dir/source/point.cpp.obj	5c53d92c0e644def
-10	60	7463695652253035	CMakeFiles/graph.dir/source/edge.cpp.obj	ee4ba7f6b0cc02af
-1	407	7463695655718187	CMakeFiles/graph.dir/main.cpp.obj	253853235f8b0aa2
-4	555	7463695657190449	CMakeFiles/graph.dir/source/graph.cpp.obj	90b68ae7d9a2366d
-555	788	7463695659404337	graph.exe	e861e3261874344c
-1	358	7463696768254213	CMakeFiles/graph.dir/main.cpp.obj	253853235f8b0aa2
-4	498	7463696769662625	CMakeFiles/graph.dir/source/graph.cpp.obj	90b68ae7d9a2366d
-498	617	7463696770591860	graph.exe	e861e3261874344c
 7	316	7463726302637176	CMakeFiles/graph.dir/source/point.cpp.obj	5c53d92c0e644def
 10	322	7463726302687186	CMakeFiles/graph.dir/source/edge.cpp.obj	ee4ba7f6b0cc02af
 1	607	7463726305532751	CMakeFiles/graph.dir/main.cpp.obj	253853235f8b0aa2
