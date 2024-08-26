@@ -1,7 +1,8 @@
-#include "../headders/edge.h"
+#include "edge.h"
 
 // конструктор
 Edge::Edge(Point* from, Point* to, double weight, bool directed)
-	: from(from), to(to), weight(weight), directed(directed) {} 
+    : from(from), to(to), weight(weight), directed(directed) {}
 
-Edge::~Edge() {}	// деструктор
+// деструктор
+Edge::~Edge() {}

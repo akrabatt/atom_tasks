@@ -1,34 +1,24 @@
 #ifndef GRAPH_H
 #define GRAPH_H
 
-#include "./point.h"
-#include "./edge.h"
+#include "point.h"
+#include "edge.h"
 #include <vector>
 #include <unordered_map>
 #include <limits>
 
-class Graph
+class Graph 
 {
 public:
-	std::vector<Point> points;	// вектор с точками
-	std::vector<Edge> edges;	// вектор ребер
+    std::vector<Point> points;  // список всех точек 
+    std::vector<Edge> edges;    // список всех ребер
 
-	Graph();	// конструктор для созадния графа с случайным колличестов
+    Graph();  // конструктор для создания графа с случайным количеством точек и ребер
 
-	/**
-	* @brief Метод для доавления ребра
-	* 
-	*/
-	void addEdge(int fromId, int, toId, double weight, bool directed);
+    void addEdge(int fromId, int toId, double weight, bool directed);  // метод для добавления ребра
+    std::vector<Point> dijkstra(int startId, int endId);  // метод для поиска кратчайшего пути от точки A до точки B
 
-	/**
-	* @brief метод для поиска кртчайшего пути от а до б методом дийкстры
-	* 
-	*/
-	std::vector<Point> dijkstra(int startId, int endId);
-
-	~Graph();	// деструктор
+    ~Graph();  // деструктор
 };
 
-
-#endif	// GRAPH_H
+#endif // GRAPH_H

@@ -1,17 +1,16 @@
 #ifndef POINT_H
 #define POINT_H
 
-class Point
+class Point 
 {
 public:
-	int id;	// id точки
-	int x, y;	// коориднаты точки
+    int id;  // id точки
+    int x, y;  // координаты точки
 
-	Point();	// конструктор по умолчанию
-	Point(int id, int x, int y);	// конструктор по умолчанию
+    Point();  // конструктор по умолчанию
+    Point(int id, int x, int y);  // конструктор с параметрами
 
-	~Point();	// деструктор
+    ~Point();  // деструктор
 };
 
-
-#endif // !POINT_H
+#endif // POINT_H
