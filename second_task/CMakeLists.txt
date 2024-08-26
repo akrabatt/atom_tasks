@@ -9,9 +9,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 include_directories(headders)
 include_directories(source)
 
-set(SOURCES ./main.cpp ./source/graph.cpp ./source/point.cpp)
+set(SOURCES ./main.cpp 
+			./source/graph.cpp 
+			./source/point.cpp)
 
-set(HEADERS ./headders/graph.h ./headders/point.h)
+set(HEADERS ./headders/graph.h 
+			./headders/point.h)
 
 add_executable(nearest_points  ${SOURCES})
 

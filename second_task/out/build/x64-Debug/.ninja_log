@@ -1,9 +1,5 @@
 # ninja log v5
-7	72	7461040892485930	CMakeFiles/nearest_points.dir/source/point.cpp.obj	e297b6f621cc236e
-1	395	7461040895705928	CMakeFiles/nearest_points.dir/main.cpp.obj	116497f4e90af68f
-395	592	7461040897567304	nearest_points.exe	c3bbd00fef0c10f4
-4	386	7461040895616678	CMakeFiles/nearest_points.dir/source/graph.cpp.obj	ede1750f10798ad2
 8	72	7461041032876516	CMakeFiles/nearest_points.dir/source/point.cpp.obj	d3a674490b97241a
-5	387	7461041036006524	CMakeFiles/nearest_points.dir/source/graph.cpp.obj	9a238b4e2776b850
 1	394	7461041036046513	CMakeFiles/nearest_points.dir/main.cpp.obj	9f30d438bd4577d8
-394	504	7461041036876081	nearest_points.exe	c3bbd00fef0c10f4
+630	741	7461061062701250	nearest_points.exe	c3bbd00fef0c10f4
+2	629	7461061061825694	CMakeFiles/nearest_points.dir/source/graph.cpp.obj	9a238b4e2776b850
